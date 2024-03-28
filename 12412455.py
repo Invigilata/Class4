@@ -4,7 +4,7 @@ class Building:
     def __init__(self):
         Building.total += 1
 
-for _ in range(40):
+for i in range(40):
     building = Building()
     print(building)
 
